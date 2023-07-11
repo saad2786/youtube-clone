@@ -1,0 +1,39 @@
+.thumbnail_image
+{
+    width: 280px;
+    height: 160px;
+    border-radius: 10px;
+}
+.video_info
+{
+    width: 330px;
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+.channel_image
+{
+    width: 40px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.title
+{
+    margin: 0;
+}
+.videoCard_text
+{
+    padding-right: 15px;
+}
+.videoCard_text > h4
+{
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+.videoCard_text > p
+{
+    margin: 0;
+    font-size: 13px;
+    color: gray;
+}
+

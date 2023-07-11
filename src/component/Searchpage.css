@@ -1,0 +1,27 @@
+.search_page
+{
+    display: block;
+    flex: 0.8;
+}
+.filter
+{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    width: fit-content;
+    color: gray;
+
+}
+.filter:hover{
+    border-radius: 20px;
+    background-color: lightgray;
+}
+.filter > h3
+{
+    margin:0 5px;
+
+}
+.VideoRows > *
+{
+    margin: 20px auto;
+}

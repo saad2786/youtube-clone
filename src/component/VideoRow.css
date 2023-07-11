@@ -1,0 +1,37 @@
+.videoRow{
+    display: flex;
+    max-width: 700px;
+    margin-left:20px ;
+}
+.videoRow_image
+{
+    margin-right: 10px;
+    /* height: 220px !important; */
+}
+.channel_image
+{
+   margin: 10px 5px;
+
+}
+.videoRow_text
+{
+      padding-right: 25px;
+}
+.videoRow_text > h4
+{
+   margin: 5px auto;
+}
+.videoRow_text >h5
+{
+    margin: 0;
+    display: flex;
+}
+.videoRow_text > p
+{
+    font-size: small;
+    color: gray;
+}
+.channel_logo
+{
+    display: flex;
+}

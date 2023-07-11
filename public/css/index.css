@@ -1,0 +1,88 @@
+html,
+body ,p{
+  margin: 0%;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0%;
+}
+hr > *
+{
+    height: 1px;
+    border: none;
+    background-color: gray;
+    margin-top: 10px;   
+    margin-bottom: 20px;   
+}
+.link_items {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0%;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+.header div {
+  display: flex;
+  align-items: center;
+}
+
+.header_left:hover > .header__logo {
+  font-size: 45px;
+}
+.header__logo {
+  margin-left: 10px;
+  color: red;
+}
+.brand {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 0%;
+}
+.header__mid {
+  width: 40%;
+  color: gray !important;
+}
+.header_input {
+  border: solid 1px rgb(180, 174, 174);
+  width: 80%;
+  height: 35px;
+  border-radius: 20px;
+}
+.header_input > input {
+  width: 90%;
+  height: 30px;
+  border: none;
+  padding-left: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.header_inputButton {
+  width: 50px !important ;
+  display: flex;
+  color: gray !important;
+  background-color: gainsboro;
+  border-left: 1px solid rgb(180, 174, 174);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 35px;
+  padding-left: 10px;
+}
+.micIcon {
+  width: 50px;
+  padding: 5px;
+  margin: auto 5px;
+  border-radius: 100px;
+}
+.micIcon:hover {
+  background-color: rgb(233, 231, 231);
+}
+.right_icon {
+  margin-right: 10px;
+}
